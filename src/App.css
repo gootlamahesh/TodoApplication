@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  margin: 0px;
+  background-image: linear-gradient(to right, #bc22c3, #2d3ffd, #00ff95);
+  background-size: cover;
+  padding: 100px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+.todo-heading {
+  color: #ffffff;
+  text-align: center;
+}
+span {
+  font-weight: bold;
+}
+
+.task-container {
+  background-color: #ffffff;
+  width: 90%;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.todo-user-input {
+  background-color: white;
+  width: 85%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  margin-right: 10px;
+}
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.display-todo-container {
+  background-color: #e4e7eb;
+  width: 90vw;
+  padding: 20px;
+  border-radius: 16px;
+  height: fit-content;
+}
+@media screen and (max-width: 767px) {
+  .task-heading {
+    font-size: 20px;
+  }
+  .task-container {
+    width: 90vw;
+    height: 150px;
+  }
+  .todo-user-input {
+    width: 70%;
+  }
+}
